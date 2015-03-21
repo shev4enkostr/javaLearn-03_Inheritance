@@ -14,7 +14,7 @@ public class EnumTest
 		System.out.println("size = " + size);
 		System.out.println("abbreviation = " + size.getAbbreviation());
 		
-		if (size == Size.EXTRA_LARGE | size == Size.EXTRA_EXTRA_LARGE | size == Size.EXTRA_EXTRA_EXTRA_LARGE)
+		if (size == Size.EXTRA_LARGE || size == Size.EXTRA_EXTRA_LARGE || size == Size.EXTRA_EXTRA_EXTRA_LARGE)
 			System.out.println("Good job--you paid attention to the _.");
 			
 		Size[] test = new Size[6];
