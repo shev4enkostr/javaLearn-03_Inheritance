@@ -1,5 +1,5 @@
 package com.shev4enkostr.objectWrapper;
-import java.util.*;
+import java.util.ArrayList;
 
 public class WrapperTest
 {
