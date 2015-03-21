@@ -103,7 +103,7 @@ public class Employee extends Person
 	public String toString()
 	{
 		return getClass().getName() + 
-			"[name = " + this.getNextId() +
+			"[name = " + Employee.getNextId() +
 			", salary = " + this.salary +
 			", hireDay = " + this.hireDay +"]";
 	}

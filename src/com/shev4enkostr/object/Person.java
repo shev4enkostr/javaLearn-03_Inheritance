@@ -21,20 +21,20 @@ abstract public class Person
 	{
 	}
 	
-	abstract public String getDescription()
+	abstract public String getDescription();
 	
 	public String getName()
 	{
 		return name;
 	}
 	
-	abstract public boolean equals(Object otherObject)
+	abstract public boolean equals(Object otherObject);
 	
-	abstract public String equalsString(Object otherObject)
+	abstract public String equalsString(Object otherObject);
 	
-	abstract public int hashCode()
+	abstract public int hashCode();
 	
-	abstract public String toString()
+	abstract public String toString();
 	
 	public int getId()
 	{
