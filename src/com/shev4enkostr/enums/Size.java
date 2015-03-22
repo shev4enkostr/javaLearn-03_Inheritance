@@ -1,6 +1,6 @@
 package com.shev4enkostr.enums;
 
-enum Size
+public enum Size
 {
 	SMALL("S"), MEDIUM("M"), LARGE("L"), EXTRA_LARGE("XL"), EXTRA_EXTRA_LARGE("XXL"), EXTRA_EXTRA_EXTRA_LARGE("XXXL");
 
